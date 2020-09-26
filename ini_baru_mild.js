@@ -45,12 +45,10 @@ $(document).ready(function(){
 			$('#iframeHolder').html( '<video ' + vbuka + Server2  + vtutup );
 			});
   });	
-  $('a[href^="https://d.google.com/file/d/"]').each(function(){
-    var LDL = $(this).attr("href");
-		var VDL = LDL.replace("https://d.google.com/file/d/", creampie); 
-		$(this).attr("id", "LDL"); 
-		$(this).attr("href", VDL); 
-			var tautan = encodeURIComponent(VDL);
-		document.getElementById("downloadbtn").innerHTML = '<a href="https://semawur.com/full/?api=c9b69dd80965197f5477407331e1df8f870372e2&url='+tautan+'"><img alt="Download" src="https://1.bp.blogspot.com/--P4-hAsQK9U/U1W9v0oQ0yI/AAAAAAAABfU/uGg5Lffp_Es/w104/Download.png"/></a>';
+  $('a[href^="https://mediafire.com/"]').each(function(){
+    	var LDL = $(this).attr("href");
+    	$(this).attr("id", "LDL"); 
+    	var tautan = encodeURIComponent(LDL);
+	document.getElementById("downloadbtn").innerHTML = '<a href="https://semawur.com/full/?api=c9b69dd80965197f5477407331e1df8f870372e2&url='+tautan+'"><img alt="Download" src="https://1.bp.blogspot.com/--P4-hAsQK9U/U1W9v0oQ0yI/AAAAAAAABfU/uGg5Lffp_Es/w104/Download.png"/></a>';
 	 });
  });
